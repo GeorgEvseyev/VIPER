@@ -25,7 +25,6 @@ class MainViewController: UIViewController {
         return button
     }()
     
-    var router: IMainRouter?
     var presenter: IMainPresenter = MainPresenter()
     
     override func viewDidLoad() {

@@ -15,7 +15,8 @@ protocol IMainPresenter: AnyObject {
 
 final class MainPresenter {
     weak var view: IMainViewController?
-
+    
+    var router: IMainRouter?
     var interactor: IMainInteractor = MainInteractor()
 }
 
